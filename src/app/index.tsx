@@ -1,7 +1,11 @@
-import '~/shared/assets/styles/App.css'
+import { ModeToggle } from '@/widgets/mode-toggle/mode-toggle'
 
 function App() {
-  return <div>react app</div>
+  return (
+    <>
+      <ModeToggle />
+    </>
+  )
 }
 
 export default App

@@ -3,7 +3,7 @@
     "downlevelIteration": true,
     "baseUrl": "./src",
     "paths": {
-      "~/*": ["*"]
+      "@/*": ["*"]
     },
     "target": "ES2020",
     "useDefineForClassFields": true,
