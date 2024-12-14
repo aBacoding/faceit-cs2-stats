@@ -5,7 +5,6 @@ import { useTheme } from '@/app/providers/withTheme'
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme()
-
   return (
     <Button
       onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
